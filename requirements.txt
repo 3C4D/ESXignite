@@ -1,0 +1,9 @@
+paramiko
+scp
+minidump
+unicrypto
+asn1crypto
+minikerberos
+aiowinreg
+msldap
+winacl
