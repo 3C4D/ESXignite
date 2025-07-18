@@ -7,3 +7,4 @@ minikerberos
 aiowinreg
 msldap
 winacl
+volatility3
