@@ -148,5 +148,5 @@ if __name__ == '__main__':
   vmemshort = vmem_file.split('/')[-1]
   print('[+] Dumping Secrets...')
 
-  output = os.popen(f'python3 ./volatility3/vol.py -f ./{vmemshort} -p ./pypykatz-volatility3 pypykatz 2>/dev/null').readlines()
+  output = os.popen(f'vol -f ./{vmemshort} -p ./pypykatz-volatility3 pypykatz 2>/dev/null').readlines()
   volatility_parse(output)
