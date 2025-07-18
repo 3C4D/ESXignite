@@ -13,6 +13,11 @@ git clone https://github.com/skelsec/pypykatz.git
 pip3 install ./pypykatz/
 ```
 
+Clone the pypykatz volatility plugin
+```
+git clone https://github.com/skelsec/pypykatz-volatility3.git
+```
+
 ## Usage
 
 ```
